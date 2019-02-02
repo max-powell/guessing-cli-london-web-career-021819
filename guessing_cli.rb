@@ -18,5 +18,4 @@ def run_guessing_game
        puts "The computer guessed #{num}."
      end
    end
-   puts "You guessed the correct number!"
 end
