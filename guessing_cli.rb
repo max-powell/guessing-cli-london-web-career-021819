@@ -11,7 +11,7 @@ def run_guessing_game
        puts "Goodbye!"
        break
      end
-     if guess != num
+     if guess.to_i != num
        puts "The computer guessed #{num}."
      end
    end
